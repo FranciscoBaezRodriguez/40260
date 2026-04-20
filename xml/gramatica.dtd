@@ -1,0 +1,8 @@
+<!ELEMENT lavadora (secuencia)>
+<!ELEMENT secuencia (llenarAgua, lavar, repetir, centrifugar)>
+<!ELEMENT llenarAgua EMPTY>
+<!ELEMENT lavar EMPTY>
+<!ELEMENT repetir (enjuagar)>
+<!ATTLIST repetir veces CDATA #REQUIRED>
+<!ELEMENT enjuagar EMPTY>
+<!ELEMENT centrifugar EMPTY>

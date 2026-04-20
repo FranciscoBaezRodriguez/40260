@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lavadora SYSTEM "gramatica.dtd">
+<lavadora>
+    <secuencia>
+        <llenarAgua/>
+        <lavar/>
+        <repetir veces="2">
+            <enjuagar/>
+        </repetir>
+        <centrifugar/>
+    </secuencia>
+</lavadora>
