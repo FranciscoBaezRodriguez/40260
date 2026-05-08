@@ -13,13 +13,13 @@ button[id="b0"] {
     color: red;
 }
 
-div{
+div {
     width: 100px;
     display: flex;
     flex-wrap: wrap;
 }
 
-input{
+input {
     width: 100px;
     height: 30px;
 }
