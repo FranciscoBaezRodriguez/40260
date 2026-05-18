@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../x.js", "../xyz.js"],
+  "sourcesContent": ["", "import * as miModulo from \"./x.js\"\r\nimport { y } from \"./y.js\"\r\nimport { z } from \"./z.js\"\r\n\r\nconsole.log(miModulo.x(\"abc\"))\r\nconsole.log(miModulo.xx(\"def\"))\r\nconsole.log(y(\"ghi\"))\r\nconsole.log(z(\"jkl\"))"],
+  "mappings": "+gBAAA,IAAAA,EAAAC,EAAA,QCAA,IAAAC,EAA0B,OAI1B,QAAQ,IAAa,SAAE,KAAK,CAAC,EAC7B,QAAQ,IAAa,SAAG,KAAK,CAAC,EAC9B,QAAQ,IAAI,SAAE,KAAK,CAAC,EACpB,QAAQ,IAAI,SAAE,KAAK,CAAC",
+  "names": ["require_x", "__commonJSMin", "miModulo"]
+}
